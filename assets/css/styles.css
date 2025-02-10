@@ -587,6 +587,94 @@ body {
     transform: translateY(-2px);
 }
 
+.snapchat-page {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #FFF5F5 0%, #F0F7F7 100%);
+    padding: 2rem;
+}
+
+.snapcode-container {
+    background: white;
+    padding: 3rem;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 600px;
+    width: 100%;
+}
+
+.snapcode-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.snapcode-container p {
+    color: var(--text-color);
+    opacity: 0.8;
+    margin-bottom: 2rem;
+}
+
+.snapcode {
+    margin: 2rem 0;
+    padding: 1rem;
+    background: #FFFC00;
+    border-radius: 15px;
+    display: inline-block;
+}
+
+.snapcode img {
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+}
+
+.instructions {
+    text-align: left;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.instructions h2 {
+    color: var(--text-color);
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.instructions ol {
+    color: var(--text-color);
+    opacity: 0.8;
+    margin-bottom: 2rem;
+    padding-left: 1.5rem;
+}
+
+.instructions li {
+    margin-bottom: 0.5rem;
+}
+
+.back-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    background: var(--background-color);
+    color: var(--text-color);
+    text-decoration: none;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+
+.back-button:hover {
+    transform: translateX(-5px);
+    background: rgba(0, 0, 0, 0.05);
+}
+
 @media (max-width: 1024px) {
     .hero {
         flex-direction: column;
