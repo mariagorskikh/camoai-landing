@@ -206,8 +206,6 @@ body {
     width: 100%;
     height: 400px;
     overflow: hidden;
-    border-radius: 20px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
 .demo-image {
@@ -271,10 +269,9 @@ body {
 }
 
 .try-now-btn {
-    display: inline-block;
     background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
     color: white;
-    text-decoration: none;
+    border: none;
     padding: 0.75rem 1.5rem;
     border-radius: 12px;
     font-weight: 600;
