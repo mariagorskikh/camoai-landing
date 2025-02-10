@@ -599,9 +599,7 @@ body {
 }
 
 .snapcode {
-    margin: 2rem 0;
-    padding: 1rem;
-    border-radius: 15px;
+    margin: 2rem auto;
     display: inline-block;
 }
 
@@ -609,6 +607,7 @@ body {
     width: 300px;
     height: 300px;
     object-fit: contain;
+    display: block;
 }
 
 .instructions {
