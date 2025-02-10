@@ -140,9 +140,8 @@ body {
 }
 
 .features {
-    padding: 5rem 5%;
-    background: linear-gradient(135deg, #FFF9F5 0%, #FFF5F5 100%);
-    position: relative;
+    padding: 8rem 5%;
+    background: var(--background-color);
 }
 
 .features::before {
@@ -166,18 +165,17 @@ body {
 
 .feature-cards {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
-    padding: 1rem;
+    margin-top: 4rem;
 }
 
 .feature-card {
-    background: var(--card-background);
-    border-radius: 16px;
+    background: white;
+    border-radius: 20px;
     overflow: hidden;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: all var(--transition-speed);
-    position: relative;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    height: 500px;
 }
 
 .feature-card::before {
@@ -204,7 +202,7 @@ body {
 .feature-demo {
     position: relative;
     width: 100%;
-    height: 400px;
+    height: 100%;
     overflow: hidden;
 }
 
